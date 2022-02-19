@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/media-style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawsome.com/3a682b920b.js" crosssorigin="anonymous"></script>
+</head>
+<body>
+    <div id="top-interface">
+        <div id="left"></div>
+        <div id="right">
+            <div id="top">
+                <div class="name">
+                    <h2>&nbsp&nbsp&nbspRajan Portfolio</h2>
+                    <h3 id="login"><a id="main2button" href="#">Log in</a>
+                    <a id="for-menu">&#9776;</a></h3>
+                </div>
+            </div>
+            <ul id="for-default">
+                <li><a href="#"><i class=""></i>HoMe</a></li>
+                <li><a href="#skills"><i class=""></i>mySkills</a></li>
+                <li><a href="#projects"><i class=""></i>myProjects</a></li>
+                <li><a href="#questions"><i class=""></i>Questions</a></li>
+                <li><a href="#contact"><i class=""></i>contactMe</a></li>
+            </ul>
+            <div id="media-mobile">
+            <ul id="for-mobile">
+                <a href="#"><li><a href="#"><i class=""></i>HoMe</a></li></a>
+                <li><a href="#skills"><i class=""></i>mySkills</a></li>
+                <li><a href="#projects"><i class=""></i>myProjects</a></li>
+                <li><a href="#questions"><i class=""></i>Questions</a></li>
+                <li><a href="#contact"><i class=""></i>contactMe</a></li>
+            </ul></div>
+
+            <div id="image-intro">
+                <div id="image">
+                    <img src="../images/profile.png">
+                </div>
+                <div id="intro">
+                    <h1>Hi, I am Rajan</h1>
+                    <p>I am a full stack web developer. Persuing first year of B.tech IT in GIT, vellore.
+                        <br> <br> <a id="main2button" href="resume.html">Download Resume</a>
+                        <a id="main2button" href="hire-me">Hire me</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div><br><br><br><br><br>
+    <!--=====================================================-->
+    <div id="skills">
+        <h1>Front End</h1>
+        <img src="../images/skill-icons/html-icon.jfif">
+        <img src="../images/skill-icons/css-icon.png">
+        <img src="../images/skill-icons/javascript-icon.jfif">
+        <h1>Back End</h1>
+        <img src="../images/skill-icons/php-icon.png">
+        <h1>DBMS</h1>
+        <img src="../images/skill-icons/html-icon.jfif">
+        <img src="../images/skill-icons/mysql-icon.png">
+    </div>
+    <!--=====================================================-->
+    <div id="projects">
+        <div class="pro-header">
+            <p id="hamburger">&nbsp;<button onclick="hide()"> &#9776;</button> &nbsp; Hello Project ==></p> 
+        </div>
+        <div id="pro-menu-content">
+            <div id="pro-menu">
+                <ul>
+                    <li id="menu" onclick="changeImage(0)"><i class="fa-solid fa-film"></i>Movie Site</li>
+                    <li id="menu" onclick="changeImage(1)">AutoMobile</li>
+                    <li id="menu" onclick="changeImage(2)">bodyProtocol</li>
+                    <li id="menu" onclick="changeImage(3)">.....</li>
+                </ul>
+            </div>
+            <div id="pro-content">
+                <img id="imagePlace" src="../images/projects-images/movie.project.png" alt="">
+                <p></p>
+            </div>
+            <div id="pro-description">
+                <div id="description">
+                    <h2 id="title">enjoyWithMovies.com</h2>
+                    <p id="des-content">
+                        This site is useful to download the movies with onclick. This is add free and 
+                        buffer free site.
+                    </p>
+                </div>
+                <div id="visit">
+                    <a id="code" href="#">See code</a>
+                    <a id="site" href="#">Visit site</a>
+                </div>
+            </div>
+        </div>
+        <div id="pro-footer">
+            <p>You can also visit my<a href="#">github page</a> for more projects.</p>
+        </div>
+    </div>
+    <!--=====================================================-->
+    <div id="questions-background">
+        <div id="questions" class="q1">    
+            <h2 id="askMe">Wanna ask some questions...</h2>
+        <div class="wrapper">
+            <button class="toggle">
+                What is my source of Learning ?
+            </button>
+            <div class="content">
+                <p>That's pretty    simple,<b>Youtube</b>. Even I try out some
+                    questions to <b>Google</b> and I learn mostly by <b>reading
+                    the source code</b> of a awsome sites.
+                </p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button class="toggle">
+                How many days you took to constuct this Portfolio ?
+            </button>
+            <div class="content">
+                <p>Just <b>3 days</b>. I have planned the design and
+                    have watched the appropriate videos for my design, 
+                    all before I started coding.
+                    
+                    </p>
+            </div>
+        </div>        <div class="wrapper">
+            <button class="toggle">
+                Can you tell me the simple advice in attaining some goals.
+            </button>
+            <div class="content">
+                <p><b>Yes.</b> Set your destination as your preferred one.
+                    Otherwise adopt that is the preferred one.  
+                
+                
+                </p>
+            </div>
+        </div>        <div class="wrapper">
+            <button class="toggle">
+                Your projects are own or copied one ?
+            </button>
+            <div class="content">
+                <p> It is <b>own</b>. Some times I do as it is in the video, Even
+                    when I copy, I read it after the completion of project.
+                   </p>
+            </div>
+        </div>
+        
+        <!------------------More Questions----------------->
+    </div>
+    <div id="questions" class="q2">    
+        <div class="wrapper">
+            <button class="toggle">
+                How you got into Coding ?
+            </button>
+            <div class="content">
+                <p>My first language is <b>C++</b>(since hsc 1st year). I learnt it by executing 
+                    the problems in different ways. I felt the beauty of
+                    programming languages.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div id="questions" class="q2">    
+        <div class="wrapper">
+            <button class="toggle">
+                Do you know these developing languages 100% ?
+            </button>
+            <div class="content">
+                <p>Obviously, <b>not</b>. I have learned only to implement
+                    my design and I am still Learning New languages.
+                </p>
+            </div>
+        </div>
+
+    </div>   
+     <div id="questions" class="q2">    
+        <div class="wrapper">
+            <button class="toggle">
+               How you got Interested into this field ?
+            </button>
+            <div class="content">
+                <p>I have no idea at the beginning, But I had been thinking 
+                    about do something for my career. At that time I got an
+                    idea somehow.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="questions" class="q2">    
+        <div class="wrapper">
+            <button class="toggle">
+                How many projects have you done so far ?
+            </button>
+            <div class="content">
+                <p>My major projects are 2. Little projects are 5 (just for learning).
+                    I am still developing with 2 major projects.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <h2>Rajan Portfolio</h2>
+        blog<br>
+        contact<br>
+        blog<br>
+        contact<br>
+        blog<br>
+    </footer>
+    <script src="../js/media.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+#skills{
+    background-image: url(../images/skills-background.gif);
+    background-repeat: repeat;
+}
+#left{
+    width: 1%;
+    float: left;
+    height: 400px;
+    background-color: red;
+}
+#right{
+    background-color: aqua;
+    float: right;
+    height: auto;
+    width: 99%;
+}
+#top{
+    justify-content: space-between;
+    display: inline;
+    display: flex;
+    background-color: rb(61, 55, 55);
+    border-bottom: 2px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    float: right;
+}
+#right ul{
+    width: 100%;
+    margin-top: 33px;
+    float: right;
+    text-align: center;
+}
+#right ul#for-default li{
+    display: inline;
+    height: auto;
+    margin-right: 10px;
+}
+#right ul#media-mobile{
+    float: right;
+}
+#right ul#for-mobile{
+    width: 50%;
+    transition: all 0.5s;
+    float: right;
+    position: absolute;
+    display: block;
+    background-color: rgb(184, 108, 108);
+}
+#right ul#for-mobile li{
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+#right ul li a{
+    transition: all 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#right ul li a:hover{
+    color: white;
+    font-weight: 100;
+    background-color: blue;
+    font-size: 20px;
+}
+#for-menu{
+    text-decoration: none;
+    color: blue;
+    float: right;
+}
+#right img{
+    border-radius: 10000px;
+    height: 250px;
+    width: auto;
+    padding: 2%;
+}
+#top-interface p{
+    margin-left: 100px;
+}
+#top-interface h1{
+    margin-left: 100px;
+}
+#main2button,#visit a{
+    background-color: blue;
+    color: white;
+    transition: all 0.2s;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 9px;
+}
+#main2button:hover,#visit a:hover{
+    padding: 15px;
+    border-radius: 10px;
+}
+#questions-background{
+    width: 100%;
+    margin-top: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+    background-color: rgb(228, 211, 211);
+}
+#questions{
+    background-color: rgb(228, 211, 211);
+    width: auto;
+    margin: 0px auto;
+}
+.wrapper{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    box-shadow: tomato;
+}
+.toggle,
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.toggle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: blue;
+    font-weight: 800;
+    border: none;
+    cursor:pointer;
+    padding: 15px 0;
+}
+.content{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: all 2s;
+}
+.q2{
+    display: none;
+}
+#askMe{
+    padding-top: 40px;
+    color: blue;
+    background-color: rgb(228, 211, 211);
+}
+#skills img{
+    height: 150px;
+    width: auto;
+    display: inline;
+    border-radius: 100px;
+}
+#skills{
+    padding-top: 40px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(26, 4, 87);
+    color: white;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+#pro-menu-content{
+    display: flex;
+    height: auto;
+    bottom: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+.pro-header{
+    background-color: blue;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    line-height: 20px;
+}
+#pro-menu ul li{
+    line-height: 40px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top:30px ;
+    display: block;
+    cursor: pointer;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+#pro-menu ul li:hover{
+    background-color: white;
+    color: black;
+}
+#pro-menu{
+    transition: all 0.5s;
+    width: 15%;
+    height: auto;
+    background-color: rgb(73, 66, 66);
+}
+#pro-content{
+    width: 70%;
+    position: relative;
+}
+#pro-content p{
+    position: absolute;
+}
+#pro-content img{
+    width: 100%;
+    height: auto;
+}
+#pro-description{
+    padding: 20px;
+    width: 20%;
+    justify-items: end;
+}
+#des-content{
+    justify-content: center;
+}
+#pro-footer,#pro-footer a{
+    padding-left: 10px;
+    color: white;
+    background-color: rgb(73, 64, 64);
+}
